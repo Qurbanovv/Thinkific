@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: __Inter_d65c78, __Inter_Fallback_d65c78, Helvetica, sans-serif;
+}
+/* -------------------Reklam------------------ */
+.advertise{
+    background-color: #FFFDFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 9px 14px 9px;   
+    border-bottom: 1px solid;
+}
+.advertise_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+.advertise_2 h3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+.advertise_2 a{
+    background-color: transparent;
+    padding: 11px 21px;
+    color: rgb(40, 78, 242,1);
+    border : 1px solid rgb(40, 78, 242,1);
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;   
+}
+.advertise_2 a:hover{
+    background-color: #284EF2;
+    color: #fff;
+}
+.advertise_3{
+    display: flex;
+    align-items: center;
+}
+.advertise_3 i{
+    font-size: 11px;
+    color: #525151;
+    /* font-weight: 900; */
+}
+.advertise_3 button:hover{
+    /* font-size: 15px; */
+    transform:scale(1.4);
+}
+.advertise_3 button{
+    padding: 7px 9px;
+    /* margin-right: 9px; */
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
