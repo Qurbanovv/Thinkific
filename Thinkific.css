@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: __Inter_d65c78, __Inter_Fallback_d65c78, Helvetica, sans-serif;
 }
-/* -------------------Reklam------------------ */
+/* -------------------Advertise------------------ */
 .advertise{
     background-color: #FFFDFA;
     display: flex;
@@ -57,4 +57,93 @@
     cursor: pointer;
     background-color: transparent;
     border: none;
+}
+/* ------------Header-------------- */
+.header_1{
+    display: flex;
+}
+.header_1_left{
+    padding: 15px 51px;
+    cursor: pointer;
+    /* border: 1px solid; */
+}
+.header_1_right{
+    background-color: #F2FBFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header_1_right h3{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 35px;
+    height: 100%;
+    text-align:center;
+}
+/* .header_2_logo img{ */
+    /* border: 1px solid; */
+    
+/* } */
+.header_2{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.header_2_logo{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+    /* border: 1px solid green; */
+}
+.header_2_left{
+    display: flex;
+    /* gap: 41px; */
+}
+.header_2_left nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 23px;
+}
+.header_2_left nav ul li{
+    cursor: pointer;
+    padding: 25px 12px;
+    transition: all 100ms;
+}
+.header_2_left nav ul li:hover{
+    border-bottom: 2px solid blue;
+}
+.header_2_left nav ul li a{
+    text-decoration:none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header_btn_white{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    padding: 17px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #344054;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.header_btn_blue{
+    background-color:#3561FF;
+    padding: 19px 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+.header_2_right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 32px;
 }
